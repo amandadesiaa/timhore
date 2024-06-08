@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".list1"
+    android:orientation="vertical"
+    android:background="@color/white">
+
+    <LinearLayout
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageButton
+            android:onClick="back"
+            android:backgroundTint="@color/black"
+            android:background="@drawable/back"
+            android:layout_width="50dp"
+            android:layout_height="50dp"/>
+
+    </LinearLayout>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center">
+
+        <LinearLayout
+            android:layout_margin="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <ImageView
+                android:background="@drawable/gambar4"
+                android:layout_width="300dp"
+                android:layout_height="300dp"
+                android:layout_gravity="center"/>
+        <TextView
+            android:layout_gravity="center"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:layout_marginTop="15dp"
+            android:textColor="@color/black"
+            android:text="Presiden Republik Indonesia, Joko Widodo melakukan peletakan batu pertama atau groundbreaking pembangunan pusat ekosistem transisi energi dan layanan digital yang pertama dan terbesar di Tanah Air atau PLN Hub di jantung Ibu Kota Negara (IKN) Nusantara pada Rabu (5/6)."
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:layout_gravity="center"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:layout_marginTop="15dp"
+            android:textColor="@color/black"
+            android:text="Dalam agenda tersebut, Presiden Jokowi menyatakan bahwa PLN Hub akan menjadi tempat bagi berkumpulnya semua stakeholder. Dengan adanya PLN Hub makin mengakselerasi transisi energi sekaligus beragam investasi di Indonesia."
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <ImageView
+            android:layout_gravity="center"
+            android:background="@drawable/gambar3"
+            android:layout_width="300dp"
+            android:layout_marginTop="15dp"
+            android:layout_height="300dp"/>
+
+        <TextView
+            android:layout_gravity="center"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:layout_marginTop="15dp"
+            android:textColor="@color/black"
+            android:text="Terkait pengembangan Energi Baru dan Terbarukan untuk IKN, PLTS berkapasitas 50 MW siap beroperasi secara penuh pada pelaksanaan upacara HUT Republik Indonesia mendatang.
+
+Tidak hanya itu, PLN juga tengah mempersiapkan Pembangkit Listrik Tenaga Air (PLTA) untuk turut memasok listrik berbasis energi bersih ke IKN."
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="50dp"/>
+
+    </LinearLayout>
+
+    </ScrollView>
+
+
+</LinearLayout>

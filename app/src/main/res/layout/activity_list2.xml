@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".list2"
+    android:orientation="vertical"
+    android:background="@color/white">
+
+    <LinearLayout
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageButton
+            android:onClick="back"
+            android:backgroundTint="@color/black"
+            android:background="@drawable/back"
+            android:layout_width="50dp"
+            android:layout_height="50dp"/>
+
+    </LinearLayout>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center">
+
+        <LinearLayout
+            android:layout_margin="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <ImageView
+                android:background="@drawable/gambar5"
+                android:layout_width="400dp"
+                android:layout_height="200dp"
+                android:layout_gravity="center"/>
+            <TextView
+                android:layout_gravity="center"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                android:layout_marginTop="15dp"
+                android:textColor="@color/black"
+                android:text="PLN Unit Induk Distribusi (UID) Sumatera Utara memastikan aliran listrik ke 2.755.133 pelanggannya normal sepenuhnya mulai Kamis dini hari pascagangguan yang terjadi sejak Selasa (4/6)."
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:layout_gravity="center"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                android:layout_marginTop="15dp"
+                android:textColor="@color/black"
+                android:text="Saat ini, kondisi kelistrikan 2.755.133 juta pelanggan di wilayah Sumatera Utara telah kembali menyala. Pegawai PLN di seluruh unit telah memberikan usaha terbaik untuk menormalkan sistem kelistrikan yang sempat terganggu, ujar General Manager PLN UID Sumut Saleh Siswanto di Medan, Kamis."
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:layout_gravity="center"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                android:layout_marginTop="15dp"
+                android:textColor="@color/black"
+                android:text="Menurut Saleh, kecepatan dan dedikasi dalam penanganan tersebut tidak hanya memastikan pemulihan pasokan listrik, tetapi juga menjaga tingkat keselamatan dan kualitas pekerjaan yang optimal oleh petugas PLN untuk memastikan layanan kelistrikan kembali normal."
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:layout_gravity="center"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                android:layout_marginTop="15dp"
+                android:textColor="@color/black"
+                android:text="Terkait gangguan yang terjadi, PLN pun menyampaikan permohonan maaf kepada masyarakat atas ketidaknyamanan yang dirasakan.
+
+  PLN juga memberikan apresiasi kepada pemerintah daerah, pemangku kepentingan dan seluruh masyarakat di Provinsi Sumatera Utara atas dukungan kepada PLN sehingga dapat maksimal dalam melakukan pemulihan."
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="50dp"/>
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</LinearLayout>

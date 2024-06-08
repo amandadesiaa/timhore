@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".list4"
+    android:orientation="vertical"
+    android:background="@color/white">
+
+    <LinearLayout
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageButton
+            android:onClick="back"
+            android:backgroundTint="@color/black"
+            android:background="@drawable/back"
+            android:layout_width="50dp"
+            android:layout_height="50dp"/>
+
+    </LinearLayout>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center">
+
+        <LinearLayout
+            android:layout_margin="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <ImageView
+                android:background="@drawable/gambar7"
+                android:layout_width="300dp"
+                android:layout_height="300dp"
+                android:layout_gravity="center"/>
+            <TextView
+                android:layout_gravity="center"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                android:layout_marginTop="15dp"
+                android:textColor="@color/black"
+                android:text="Gerak Cepat PLN Atasi Kelistrikan Dampak Longsor di Suoh Lampung Barat, Tak Sampai 24 Jam Listrik Kembali Normal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:layout_gravity="center"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                android:layout_marginTop="15dp"
+                android:textColor="@color/black"
+                android:text="PLN UID Lampung pulihkan kondisi kelistrikan dampak bencana longsor di Suoh, Lampung Barat pada Jumat, 24 Mei 2024. Bencana longsor tersebut mengakibatkan rusaknya beberapa konstruksi Jaringan Tegangan Menengah (JTM) yang menyebabkan terputusnya pasokan listrik untuk ribuan pelanggan."
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:layout_gravity="center"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                android:layout_marginTop="15dp"
+                android:textColor="@color/black"
+                android:text="Berkaitan dengan hal tersebut, PLN menerjunkan 30 personil gabungan yang bertugas sejak Jumat malam guna mempercepat pemulihan pasokan listrik. PLN juga bersinergi dengan berbagai pihak seperti Pemda Lampung Barat, BPBD, serta Tim SAR untuk mengatasi kendala perbaikan jaringan listrik."
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="50dp"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</LinearLayout>
